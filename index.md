@@ -1,37 +1,82 @@
-## Welcome to GitHub Pages
+# Markdown syntax
 
-You can use the [editor on GitHub](https://github.com/cnchenpu/new-page/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+This is an H1
+=============
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This is an H2
+-------------
 
-### Markdown
+# This is an H1
+## This is an H2
+###### This is an H6
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# This is an H1 #
+## This is an H2 ##
+### This is an H3 ###
 
-```markdown
-Syntax highlighted code block
+> This is the first level of quoting.
+>> This is nested blockquote.
+> Back to the first level.
 
-# Header 1
-## Header 2
-### Header 3
+> ## This is a header.
+> 
+> 1.   This is the first list item.
+> 2.   This is the second list item.
+> 
+> Here's some example code:
+> 
+>     return shell_exec("echo $input | $markdown_script");
 
-- Bulleted
-- List
+# list
+* Red
+* Green
+* Blue
 
-1. Numbered
-2. List
++ Red
++ Green
++ Blue
 
-**Bold** and _Italic_ and `Code` text
+- Red
+- Green
+- Blue
 
-[Link](url) and ![Image](src)
-```
+1. First
+2. Second
+3. Third
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+***
 
-### Jekyll Themes
+# hyperlink
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cnchenpu/new-page/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+[Google] [1] [Yahoo] [2] or [MSN] [3].
 
-### Support or Contact
+  [1]: http://google.com/        "Google"
+  [2]: http://search.yahoo.com/  "Yahoo Search"
+  [3]: http://search.msn.com/    "MSN Search"
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[Google] [1] [Yahoo] [2] or [MSN] [3].
+  [google]: http://google.com/        "Google"
+  [yahoo]:  http://search.yahoo.com/  "Yahoo Search"
+  [msn]:    http://search.msn.com/    "MSN Search"
+
+---
+
+# emperfize
+
+*single asterisks*
+_single underscores_
+**double asterisks**
+__double underscores__
+~~middle line~~
+
+---
+
+# insert picture
+
+![Alt text](/path/to/img.jpg)
+![Alt text](/path/to/img.jpg "Optional title")
+
+![Alt text][id]
+[id]: url/to/image  "Optional title attribute"
+
+
