@@ -14,6 +14,7 @@
 |⇑|\&uArr;|
 |⇓|\&dArr;|
 |⇔|\&hArr;|
+|∞|\&infin;|
 |∫|\&int;|
 |Σ|\&Sigma;|
 |√|\&radic;|
