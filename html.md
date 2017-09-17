@@ -5,7 +5,7 @@
 |>|&gt;|
 | |&nbsp;|
 |←|&larr;|
-|→|&rarr;|
+|→|\&rarr;|
 |↑|&uarr;|
 |↓|&darr;|
 |↔|&harr;|
